@@ -1,0 +1,13 @@
+.HeaderParent {
+  height: 70px;
+  background-color: #212428;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.heading {
+  color: #ff014f;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 30px;
+}

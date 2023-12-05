@@ -1,0 +1,22 @@
+.SidebarParent {
+    background: #212428;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    transition: width 0.2s ease-in;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .SidebarItem {
+    padding: 16px 16px;
+    transition: width 0.2s ease-in;
+  }
+  
+  .SidebarItem.active {
+    background: #333;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
